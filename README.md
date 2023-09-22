@@ -1,6 +1,12 @@
 # get-steam-id
 A script you can use to get steam ID from name and steam name from ID for your games and applications on your Steam Deck
 
+## Edit Following Variables
+```
+STEAMAPPSDIR=/home/deck/.local/share/Steam/steamapps/
+SCREENSHOTSDIR=/home/deck/.local/share/Steam/userdata/68460212/760/remote
+```
+
 ## Usage Examples
 ```
 myvar=`get_name_from_id 236430`
